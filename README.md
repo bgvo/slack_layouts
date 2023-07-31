@@ -21,7 +21,7 @@ Or install it yourself as:
     $ gem install slack_layout
 
 ## Usage
-To create a new layout create a new class that inherits from SlackLayout. For example:
+To create a new layout create a new class that inherits from `SlackLayout`. For example:
 
 ```ruby
 class MyCustomSlackLayout < SlackLayout
@@ -66,7 +66,7 @@ param2 = "Anything you want to use in your layout"
 layout = MyCustomSlackLayout.new(param1, param2)
 ```
 
-Now, we can access the layout json that Slack needs to be sent by calling `as_json` on the layout:
+Now, you can access the layout json that Slack needs to be sent by calling `as_json` on the layout:
 
 ```ruby
 layout.as_json
