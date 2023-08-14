@@ -4,6 +4,8 @@ A ruby gem that makes building Slack's BlockKit layouts easy while keeping every
 
 It leverages [Slack::BlockKit](https://github.com/CGA1123/slack-ruby-block-kit) by providing an inheritance pattern that makes building new layouts convenient and fast.
 
+Please ⭐ if you like it.
+
 ## Installation
 
 Add this line to your application's Gemfile:
